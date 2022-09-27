@@ -39,8 +39,7 @@ class LinkedList:
         while(tmp_head != None):
             print(tmp_head.data, end = ' ')
             tmp_head = tmp_head.next
-         
-# Driver Code
+
 llist = LinkedList()
 llist.push(5)
 llist.push(4)
